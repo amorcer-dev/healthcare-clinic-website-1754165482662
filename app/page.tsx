@@ -11,24 +11,22 @@ import { WidgetMessageDoctor } from '../components/WidgetMessageDoctor'
 
 export default function Home() {
   return (
-    <main className="min-h-screen p-4 md:p-8 bg-white">
+    <main className="min-h-screen p-4 md:p-8">
       {/* Mobile Layout - Single Column (Centered) */}
       <div className="custom:hidden flex flex-col items-center space-y-6">
       <WidgetProfile
-        doctorName="Dr. Sarah Smith"
+        doctorName="Dr. Alan Achilles"
         specialty="Family Medicine"
         patients="2,500+"
         experience="10+ years"
         rating="4.9"
-        imageSrc="/Storefront/Doctor Widget/DoctorImage.png"
+        imageSrc="/Storefront/Doctor Widget/Doctor Image.png"
         profileImage=""
-        isDarkMode={false}
         className=""
       />
       <WidgetVideo
         title="Meet Dr. Bellamy"
         videoUrl=""
-        isDarkMode={false}
         className=""
       />
       <WidgetAboutDoctor
@@ -56,7 +54,6 @@ export default function Home() {
         "Spanish",
         "French"
 ]}
-        isDarkMode={false}
         className=""
       />
       <WidgetServicesAndConditions
@@ -80,7 +77,6 @@ export default function Home() {
         "Depression",
         "Anxiety"
 ]}
-        isDarkMode={false}
         className=""
       />
       <WidgetTestimonialCarousel
@@ -110,7 +106,6 @@ export default function Home() {
         overallRating={4.9}
         totalReviews={127}
         recommendedRate={98}
-        isDarkMode={false}
         className=""
       />
       <WidgetPricesAndPackages
@@ -148,7 +143,6 @@ export default function Home() {
                 ]
         }
 ]}
-        isDarkMode={false}
         className=""
       />
       <WidgetBookConsultation
@@ -207,7 +201,6 @@ export default function Home() {
         "email": "billing@drmitchell.com",
         "hours": "Mon-Fri 9AM-5PM EST"
 }}
-        isDarkMode={false}
         className=""
       />
       <WidgetMessageDoctor
@@ -223,14 +216,13 @@ export default function Home() {
         {/* Column 1: Sticky Profile Widget */}
         <div className="custom:sticky custom:top-8 custom:self-start space-y-6">
       <WidgetProfile
-        doctorName="Dr. Sarah Smith"
+        doctorName="Dr. Alan Achilles"
         specialty="Family Medicine"
         patients="2,500+"
         experience="10+ years"
         rating="4.9"
-        imageSrc="/Storefront/Doctor Widget/DoctorImage.png"
+        imageSrc="/Storefront/Doctor Widget/Doctor Image.png"
         profileImage=""
-        isDarkMode={false}
         className=""
       />
         </div>
@@ -240,7 +232,6 @@ export default function Home() {
       <WidgetVideo
         title="Meet Dr. Bellamy"
         videoUrl=""
-        isDarkMode={false}
         className=""
       />
       <WidgetAboutDoctor
@@ -268,7 +259,6 @@ export default function Home() {
         "Spanish",
         "French"
 ]}
-        isDarkMode={false}
         className=""
       />
       <WidgetServicesAndConditions
@@ -292,7 +282,6 @@ export default function Home() {
         "Depression",
         "Anxiety"
 ]}
-        isDarkMode={false}
         className=""
       />
       <WidgetTestimonialCarousel
@@ -322,7 +311,6 @@ export default function Home() {
         overallRating={4.9}
         totalReviews={127}
         recommendedRate={98}
-        isDarkMode={false}
         className=""
       />
         </div>
@@ -364,7 +352,6 @@ export default function Home() {
                 ]
         }
 ]}
-        isDarkMode={false}
         className=""
       />
       <WidgetBookConsultation
@@ -423,7 +410,6 @@ export default function Home() {
         "email": "billing@drmitchell.com",
         "hours": "Mon-Fri 9AM-5PM EST"
 }}
-        isDarkMode={false}
         className=""
       />
       <WidgetMessageDoctor
