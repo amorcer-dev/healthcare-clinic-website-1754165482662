@@ -6,7 +6,7 @@ const nextConfig = {
         source: '/(.*)',
         headers: [
           { key: 'X-Frame-Options', value: 'ALLOWALL' },
-          { key: 'Content-Security-Policy', value: 'frame-ancestors https://amorcer.com' },
+          { key: 'Content-Security-Policy', value: 'frame-ancestors *' },
         ]
       }
     ];

@@ -21,7 +21,7 @@ export default function Home() {
         experience="10+ years"
         rating="4.9"
         imageSrc="/Storefront/Doctor Widget/Doctor Image.png"
-        profileImage=""
+        profileImage="https://res.cloudinary.com/drgqsqh1v/image/upload/v1754166152/amorcer/test/amorcer/test/Screenshot_2025-07-24_at_6.04.07_PM.png-1754166152101.png"
         className=""
       />
       <WidgetVideo
@@ -222,7 +222,7 @@ export default function Home() {
         experience="10+ years"
         rating="4.9"
         imageSrc="/Storefront/Doctor Widget/Doctor Image.png"
-        profileImage=""
+        profileImage="https://res.cloudinary.com/drgqsqh1v/image/upload/v1754166152/amorcer/test/amorcer/test/Screenshot_2025-07-24_at_6.04.07_PM.png-1754166152101.png"
         className=""
       />
         </div>
